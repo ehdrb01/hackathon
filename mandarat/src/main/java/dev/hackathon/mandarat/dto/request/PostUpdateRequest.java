@@ -7,8 +7,9 @@ import java.util.List;
 
 @Getter
 @Setter
-public class PostRequest {
+public class PostUpdateRequest {
+    private Long id;
     private String goalName;
 
-    private List<DetailRequest> detailList;
+    private List<DetailUpdateRequest> detailList;
 }
